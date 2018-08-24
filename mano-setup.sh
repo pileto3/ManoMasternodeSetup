@@ -1,5 +1,5 @@
 #!/bin/bash
-# MANO Masternode Setup Script V1.5 for Ubuntu 16.04 LTS
+# MANO Masternode Setup Script V1.6 for Ubuntu 16.04 LTS
 # (c) 2018 by Dwigt007 for Mano Coin
 #
 # Script will attempt to auto detect primary public IP address
@@ -60,7 +60,7 @@ genkey=$1
 
 clear
 
-echo -e "${YELLOW}MANO Coin Masternode Setup Script V1.5 for Ubuntu 16.04 LTS${NC}"
+echo -e "${YELLOW}MANO Coin Masternode Setup Script V1.6 for Ubuntu 16.04 LTS${NC}"
 echo "Do you want me to generate a masternode private key for you? [y/n]"
   read DOSETUP
 if [[ $DOSETUP =~ "n" ]] ; then
@@ -181,7 +181,7 @@ fi
 
  #Installing Daemon
  cd ~
-wget https://github.com/MasternodeFoundation/MANOcoin/releases/download/v1.0.1/MANO-bin-linux64.tar.gz
+wget https://github.com/MasternodeFoundation/MANOcoin/releases/download/v1.1.0/MANO-bin-linux64.tar.gz
 tar -xzf MANO-bin-linux64.tar.gz -C ~/ManoMasternodeSetup
 rm -rf MANO-bin-linux64.tar.gz
 
