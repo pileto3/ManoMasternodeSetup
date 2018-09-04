@@ -189,7 +189,7 @@ rm -rf MANO-bin-linux64.tar.gz
  stop_daemon
  
  # Deploy binaries to /usr/bin
- sudo cp ~/ManoMasternodeSetup/MANO-bin/mano* /usr/bin/
+ sudo cp ~/ManoMasternodeSetup/mano* /usr/bin/
  sudo chmod 755 -R ~/ManoMasternodeSetup
  sudo chmod 755 /usr/bin/mano*
  
