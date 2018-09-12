@@ -2,7 +2,7 @@
 
 **THIS SCRIPT IS NO LONGER OFFICIALLY SUPPORTED. USE AT YOUR OWN RISK AS NO COMPREHENSIVE SUPPORT IS PROVIDED AT THIS TIME! As of 9/12/18 this script is up to date and includes the sentinel update.**
 
-**MANO.Host is now active and in the beta stage of testing. All hosting on the MANO platform is completely free and supported. If you have any questions about host, please reach out on discord or telegram. **
+**MANO.Host is now active and in the beta stage of testing. All hosting on the MANO platform is completely free and supported. If you have any questions about host, please reach out on discord or telegram.**
 
 ```bash 
 sudo apt-get update
