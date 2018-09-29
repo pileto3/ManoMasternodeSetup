@@ -257,6 +257,12 @@ addnode=88.99.201.58:5982
 addnode=51.68.106.229:5982
 addnode=144.217.168.59:5982
 addnode=51.68.106.227:5982
+addnode=51.68.182.202:5982
+addnode=51.68.182.204:5982
+addnode=144.217.168.126:5982
+addnode=51.68.237.22:5982
+addnode=144.217.168.7:5982
+addnode=51.68.182.216:5982
 EOF
 
 #Finally, starting mano daemon with new mano.conf
