@@ -278,27 +278,6 @@ sleep 10
 echo -ne '[###################] (100%)\r'
 echo -ne '\n'
 
-#Install Sentinel 
-echo -e "${YELLOW}Installing sentinel...${NC}"
-sudo apt-get update
-sudo apt-get upgrade -y
-sudo apt-get -y install python-pip
-sudo apt-get -y install virtualenv
-      wget https://mano.cx/manosentinel.tar.gz
-      tar -xzf  manosentinel.tar.gz -C ~/ManoMasternodeSetup
-
-    cd ~/ManoMasternodeSetup/sentinel
-      virtualenv ./venv
-      ./venv/bin/pip install -r requirements.txt
-      ./venv/bin/python bin/sentinel.py
-    chmod -R 755 database
-    cd
-    crontab -l > sentinelcron
-    echo "* * * * * cd ~/ManoMasternodeSetup/sentinel && ./venv/bin/python bin/sentinel.py >> sentinel.log 2>&1" >> sentinelcron
-
-crontab sentinelcron
-rm sentinelcron
-rm manosentinel.tar.gz
 
 #Setting auto start cron job for manod
 cronjob="@reboot sleep 30 && manod -daemon"
