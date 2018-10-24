@@ -14,3 +14,10 @@ cd ManoMasternodeSetup && bash mano-setup.sh
 If you can follow those lines and the on screen instructions you will not have a problem! Please reach out on discord @-dwigt-.
 
 -Dwigt
+
+
+
+
+
+
+- EDIT - pileto - Just deleted Sentinel because the needed addres mano.cx is gone now......
